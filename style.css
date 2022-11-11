@@ -1,0 +1,69 @@
+/* *{
+    font-family:  'Georgia';
+} */
+
+.contact-form {
+    width: 85%;
+    max-width: 600px;
+    background-color:black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat" ,sans-serif;
+}
+
+.contact-form h1{
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin-top: 0;
+    font-weight: 200;
+}
+
+.txtb {
+    border: 1px solid white;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.txtb label {
+    display: block;
+    text-align: left;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.txtb input{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    background: transparent;
+    padding: 15px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 25%;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+.btn:hover {
+    padding: 15px 20px;
+}
